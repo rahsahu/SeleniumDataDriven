@@ -1,0 +1,165 @@
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 13:00:50 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 13:08:28 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 14:42:42 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:05:01 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:06:32 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:09:35 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:13:22 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:18:00 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:19:51 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:21:10 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:25:39 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:26:23 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:27:01 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:30:01 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowserBuilder  - Building Mobile Browser with the following config: 
+MobileBrowserBuilder{baseTestUrl=http://127.0.0.1:4723/wd/hub, browserName=null, platformName=Android, platformVersion=4.4, deviceName=Moto X, app=C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk, appPackage=com.whatsapp, appActivity=com.whatsapp.Main}
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowser  - Loading capabilities..
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowser  - app  -  C:\Users/sahur/lunaworkspace/selenium/src/test/resources/com.whatsapp.apk
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowser  - platformVersion  -  4.4
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowser  - ensureCleanSession  -  true
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowser  - deviceName  -  Moto X
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowser  - platformName  -  Android
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowser  - appActivity  -  com.whatsapp.Main
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowser  - browserName  -  null
+22 Sep 2014 18:30:21 INFO  INFO  MobileBrowser  - appPackage  -  com.whatsapp
