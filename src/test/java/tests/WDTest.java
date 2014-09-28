@@ -31,6 +31,7 @@ public class WDTest {
 	{
 	
 		driver.get(url);
+		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
 		
 		
