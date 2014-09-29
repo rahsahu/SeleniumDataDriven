@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import tests.DriverCommonAction;
 import jxl.*;
@@ -21,9 +22,12 @@ public class DriverWrapper {
 	private static  WebDriver driver = null;
 	private long defaultTimeOut = 10;
 	
-	public static By BypayNowButton=By.xpath("//img[@id='submit-button-submit_button_paynow_blue']");
+	public static By ByPayNowButton=By.xpath("//img[@id='submit-button-submit_button_paynow_blue']");
 	public static By ByCancelLink=By.linkText("Cancel");
-	
+	public static By ByHeading=By.xpath("//p");
+	public static By ByCancelXPATH=By.xpath("//a[contains(text(),'Cancel')]");
+	public static String helplineMessageString="Helpline: 1300 886 534"; 
+	public static SoftAssert softAssert = new SoftAssert();
 	public DriverWrapper(WebDriver driverdriver) {
 		driver = driverdriver;
 	}
@@ -92,9 +96,15 @@ public class DriverWrapper {
 			element=getDriver().findElement(by);
 			
 					} catch (ElementNotFoundException e) {
-						Assert.assertEquals(true, false);
+						softAssert.assertEquals(true, false);
 				}	
 		return element;
+	}
+	
+	public void verifyHelplineMessage()
+	{
+		if(!getDriver().getPageSource().contains(helplineMessageString))
+			softAssert.assertEquals(true, false);
 	}
 	
 }

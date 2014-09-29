@@ -32,8 +32,17 @@ public class DriverCommonAction {
 
 	}
 
-	@BeforeTest
-	public void beforeTestSetup() {
+	@DataProvider(name = "DPAMOUNT")
+	public static Object[][] createDataDPAmount() {
+		final String dir = System.getProperty("user.dir");
+		System.out.println("current dir = " + dir);
+		return UtilWrapper.getTableArray(dir
+				+ "/src/test/resources/testdata/LINKS.xls", "pid", "pidamount");
+
+	}
+	
+	@BeforeTest(groups={"loadDriver"},alwaysRun=true)
+	public void LoadDriverBeforeTest() {
 		System.out.println("Before Test is getting called");
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setBrowserName("firefox");
@@ -46,7 +55,7 @@ public class DriverCommonAction {
 	@AfterTest(alwaysRun=true)
 	public void teardown() {
 		System.out.println("After Test is getting called");
-		
-			driver.close();
+		if(driver!=null)
+		 driver.quit();
 	}
 }
