@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>selenium</groupId>
-	<artifactId>sahur</artifactId>
+	<artifactId>SeleniumDataDriven</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>automation</name>
 
@@ -18,7 +18,25 @@
 		<cglib-version>3.1</cglib-version>
 		<resources.encoding>UTF-8</resources.encoding>
 		<sources.encoding>UTF-8</sources.encoding>
+		<TESTNG_FILE>/src/test/resources/suite/testng-customsuite.xml</TESTNG_FILE>
 	</properties>
+
+ <build>
+   <plugins>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.4.3</version>
+        <configuration>
+
+          <suiteXmlFiles>
+            <suiteXmlFile>${project.basedir}/${TESTNG_FILE}</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 	<dependencies>
 		<dependency>
