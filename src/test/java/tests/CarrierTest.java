@@ -16,55 +16,37 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
-import Wrapper.Wrapper;
+import Wrapper.DriverWrapper;
 
-public class CarrierTest extends AllDataProviderClass {
+public class CarrierTest extends DriverCommonAction {
 
-	WebDriver driver = null;
+	
 
-	@BeforeTest
-	public void beforeTestSetup() {
-		DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities.setBrowserName("firefox");
-		capabilities.setPlatform(Platform.WINDOWS);
-		driver = new FirefoxDriver(capabilities);
 
-	}
 
 	@Test(dataProvider = "DPTWO", groups = { "TWO" })
 	public void carrierIDTWO(String url,String pid) throws Exception {
 		String restURL="&territory=AU&mobile_carrier_id=2";
 		
-		Wrapper util = new Wrapper(driver);
+
 		String aURL = url + "/?pid="+pid + restURL;
 
 		driver.manage().deleteAllCookies();
 		driver.get(aURL);
 		driver.manage().window().maximize();
-		Thread.sleep(9000);
-		boolean istrue = false;
-		try{
-		WebElement payNowButton=driver.findElement(By.xpath("//img[@id='submit-button-submit_button_paynow_blue']"));
+		//Thread.sleep(9000);
+		DriverWrapper util=new DriverWrapper(driver);
+		util.waitForPageLoad();
 		
-				} catch (ElementNotFoundException e) {
-		Assert.assertEquals(true, false);
-			}
+		//Verify paynow button is present or not
+		util.findElement(DriverWrapper.BypayNowButton);
+		//Verify cancellink is present or not
+		util.findElement(DriverWrapper.ByCancelLink);
 
-		try{
-		WebElement CancelLink=driver.findElement(By
-				.linkText("Cancel"));
-		
-				} catch (ElementNotFoundException e) {
-		Assert.assertEquals(true, false);
-			}		
 	
 		
 	}
 
-	@AfterTest(alwaysRun=true)
-	public void teardown() {
-		if (driver != null)
-			driver.close();
-	}
+
 
 }

@@ -3,6 +3,7 @@ package Wrapper;
 import java.io.File;
 import java.util.Iterator;
 
+import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.google.common.base.Function;
 
 import org.openqa.selenium.By;
@@ -10,16 +11,20 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.*;
-import tests.AllDataProviderClass;
+import org.testng.Assert;
 
+import tests.DriverCommonAction;
 import jxl.*;
 
-public class Wrapper {
+public class DriverWrapper {
 
 	private static  WebDriver driver = null;
 	private long defaultTimeOut = 10;
-
-	public Wrapper(WebDriver driverdriver) {
+	
+	public static By BypayNowButton=By.xpath("//img[@id='submit-button-submit_button_paynow_blue']");
+	public static By ByCancelLink=By.linkText("Cancel");
+	
+	public DriverWrapper(WebDriver driverdriver) {
 		driver = driverdriver;
 	}
 
@@ -28,40 +33,6 @@ public class Wrapper {
 
 	}
 
-	public static String[][] getTableArray(String xlFilePath, String sheetName,
-			String tableName) {
-		String[][] tabArray = null;
-		try {
-			Workbook workbook = Workbook.getWorkbook(new File(xlFilePath));
-			Sheet sheet = workbook.getSheet(sheetName);
-			int startRow, startCol, endRow, endCol, ci, cj;
-			Cell tableStart = sheet.findCell(tableName);
-			startRow = tableStart.getRow();
-			startCol = tableStart.getColumn();
-
-			Cell tableEnd = sheet.findCell(tableName, startCol + 1,
-					startRow + 1, 100, 64000, false);
-
-			endRow = tableEnd.getRow();
-			endCol = tableEnd.getColumn();
-			System.out.println("startRow=" + startRow + ", endRow=" + endRow
-					+ ", " + "startCol=" + startCol + ", endCol=" + endCol);
-			tabArray = new String[endRow - startRow - 1][endCol - startCol - 1];
-			ci = 0;
-
-			for (int i = startRow + 1; i < endRow; i++, ci++) {
-				cj = 0;
-				for (int j = startCol + 1; j < endCol; j++, cj++) {
-					tabArray[ci][cj] = sheet.getCell(j, i).getContents();
-				}
-			}
-		} catch (Exception e) {
-			System.out.println("error in getTableArray()");
-			e.printStackTrace();
-		}
-
-		return (tabArray);
-	}
 
 	public void moveToWindow(String title) {
 		Iterator<String> wh = getDriver().getWindowHandles().iterator();
@@ -113,4 +84,17 @@ public class Wrapper {
 //              }
 //         };
 //   }
+	
+	public WebElement findElement(By by)
+	{
+		WebElement element=null;
+		try{
+			element=getDriver().findElement(by);
+			
+					} catch (ElementNotFoundException e) {
+						Assert.assertEquals(true, false);
+				}	
+		return element;
+	}
+	
 }

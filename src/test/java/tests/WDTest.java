@@ -13,9 +13,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import Wrapper.Wrapper;
+import Wrapper.DriverWrapper;
 
-public class WDTest extends AllDataProviderClass {
+public class WDTest extends DriverCommonAction {
 
 	WebDriver driver = null;
 
@@ -32,7 +32,7 @@ public class WDTest extends AllDataProviderClass {
 	public void startTest(String url, String p1, String v1, String p2,
 			String v2, String p3, String v3) throws Exception {
 
-		Wrapper util = new Wrapper(driver);
+		DriverWrapper util = new DriverWrapper(driver);
 		String aURL = url + p1 + v1 + "&" + p2 + v2 + "&" + p3 + v3;
 
 		driver.manage().deleteAllCookies();
