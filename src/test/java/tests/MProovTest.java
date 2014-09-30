@@ -18,6 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
 import Wrapper.DriverWrapper;
+import Wrapper.MyAccountPage;
 
 public class MProovTest extends DriverCommonAction {
 
@@ -86,17 +87,51 @@ public class MProovTest extends DriverCommonAction {
 		util.verifyText(i3, subMenu4Text);
 		util.verifyText(i4, subMenu5Text);
 		
-		//Verification of footer link
-		util.verifyText(homeLink, "Home");
-		util.verifyText(termsLink, "Terms");
-		util.verifyText(privacyLink, "Privacy");
-		util.verifyText(helpLink, "Help");
-		util.verifyText(contactUSLink, "Contact Us");
+		//Verification of footer link and its text
+		util.verifyfooterLinksForApp();
 		
 		//image varification
 		util.findElement(appImg);
-		System.out.println(util.findElement(header).getText());
-	
+		
+		//My Account Page Verification
+		util.findElement(DriverWrapper.ByMProoveMenuXPATH).click();
+		util.findElement(s6).click();
+		//Verification on My account Page
+		util.waitForPageLoad();
+		//Account Heading and history heading
+		util.findElement(MyAccountPage.myaccountHeading);
+		util.findElement(MyAccountPage.myHistoryHeading);
+		//get coins link
+		util.findElement(MyAccountPage.getCoinsLink);
+		// My Number and my coins table
+		util.findElement(MyAccountPage.myNumberHeading);
+		util.findElement(MyAccountPage.myCoinsHeading);
+		
+		//TExt Value for account, history, table Headings and link text
+		util.verifyText(MyAccountPage.myaccountHeading, MyAccountPage.myAccountHeadingValue);
+		util.verifyText(MyAccountPage.myHistoryHeading, MyAccountPage.MyHistoryHeadingValue);
+		util.verifyText(MyAccountPage.myNumberHeading, MyAccountPage.myNumberHeadingValue);
+		util.verifyText(MyAccountPage.getCoinsLink, MyAccountPage.getCoinsLinkValue);
+
+		//Verification of footer link and its text for my account page Xpath and links are same
+		util.verifyfooterLinksForApp();
+			
+		//Vefiry sub menu present and their text
+		util.findElement(DriverWrapper.ByMProoveMenuXPATH).click();
+		util.findElement(s1).getText();
+		util.findElement(s2).getText();
+		util.findElement(s3).getText();
+		util.findElement(s4).getText();
+		util.findElement(s5).getText();
+		util.findElement(s6).getText();
+		util.verifyText(s1, subMenu1Text);
+		util.verifyText(s2, subMenu2Text);
+		util.verifyText(s3, subMenu3Text);
+		util.verifyText(s4, subMenu4Text);
+		util.verifyText(s5, subMenu5Text);
+		util.verifyText(s6, subMenu6Text);
+
+		
 	}
 
 	

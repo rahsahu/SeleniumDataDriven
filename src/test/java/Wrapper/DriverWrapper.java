@@ -137,4 +137,14 @@ public class DriverWrapper {
 		}
 	}
 	
+	public void verifyfooterLinksForApp()
+	{
+		//Verification of footer link and its text
+		verifyText(ByMProovefooter1XPATH, "Home");
+		verifyText(ByMProovefooter2XPATH, "Terms");
+		verifyText(ByMProovefooter3XPATH, "Privacy");
+		verifyText(ByMProovefooter4XPATH, "Help");
+		verifyText(ByMProovefooter5XPATH, "Contact Us");
+	}
+	
 }
