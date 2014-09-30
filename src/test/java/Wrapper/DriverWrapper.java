@@ -27,6 +27,20 @@ public class DriverWrapper {
 	public static By ByHeading=By.xpath("//p");
 	public static By ByCancelXPATH=By.xpath("//a[contains(text(),'Cancel')]");
 	public static String helplineMessageString="Helpline: 1300 886 534"; 
+
+	public static By ByMProoveMenuXPATH=By.xpath("//img[@alt='Menu']");
+	public static By ByMProoveHeaderXPATH=By.xpath("//div[@id='container']/header/div");
+	public static By ByMProoveS1XPATH=By.xpath("//li[1]/a");
+	public static By ByMProoveS2XPATH=By.xpath("//li[2]/a");
+	public static By ByMProoveS3XPATH=By.xpath("//li[3]/a");
+	public static By ByMProoveS4XPATH=By.xpath("//li[4]/a");
+	public static By ByMProoveS5XPATH=By.xpath("//li[5]/a");
+	public static By ByMProoveS6XPATH=By.xpath("//li[6]/a");
+	public static By ByMProoveItem1XPATH=By.xpath("//div[@id='home_page']/div[2]/div[2]/a[1]");
+	public static By ByMProoveItem2XPATH=By.xpath("//div[@id='home_page']/div[2]/div[2]/a[2]");
+	public static By ByMProoveItem3XPATH=By.xpath("//div[@id='home_page']/div[2]/div[2]/a[3]");
+	public static By ByMProoveItem4XPATH=By.xpath("//div[@id='home_page']/div[2]/div[2]/a[4]");
+	
 	public static SoftAssert softAssert = new SoftAssert();
 	public DriverWrapper(WebDriver driverdriver) {
 		driver = driverdriver;

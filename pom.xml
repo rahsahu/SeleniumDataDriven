@@ -31,7 +31,7 @@
         <configuration>
 
           <suiteXmlFiles>
-            <suiteXmlFile>${project.basedir}/${TESTNG_FILE}</suiteXmlFile>
+            <suiteXmlFile>E:\github\SeleniumDataDriven\src\test\resources\suite\testng-customsuite.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -93,7 +93,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>${testng-version}</version>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
