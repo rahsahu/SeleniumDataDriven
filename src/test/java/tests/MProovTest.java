@@ -44,12 +44,12 @@ public class MProovTest extends DriverCommonAction {
 	private String subMenu1Text="Home";
 	private String subMenu2Text="Job Hunting with Confidence";
 	private String subMenu3Text="Different Types of Job Interviews";
-	private String subMenu4Text="Knowing when its Time to Leave";
+	private String subMenu4Text="Knowing When its Time to Leave";
 	private String subMenu5Text="Itchy Feet";
 	private String subMenu6Text="My Account";
 	
 	@Test(dataProvider = "product", groups = { "mproov", "all", "app" })
-	public void carrierIDONE(String url,String pid,String amount) throws Exception {
+	public void carrierIDONE(String url) throws Exception {
 		String restURL="&territory=AU&mobile_carrier_id=1";
 		
 
@@ -78,14 +78,15 @@ public class MProovTest extends DriverCommonAction {
 		
 		//Verified Menu on Body
 		util.findElement(DriverWrapper.ByMProoveMenuXPATH).click();
+		Thread.sleep(2000);
 		util.findElement(i1).getText();
 		util.findElement(i2).getText();
 		util.findElement(i3).getText();
 		util.findElement(i4).getText();
-		util.verifyText(i1, subMenu2Text);
-		util.verifyText(i2, subMenu3Text);
-		util.verifyText(i3, subMenu4Text);
-		util.verifyText(i4, subMenu5Text);
+		util.verifyContainText(i1, subMenu2Text);
+		util.verifyContainText(i2, subMenu3Text);
+		util.verifyContainText(i3, subMenu4Text);
+		util.verifyContainText(i4, subMenu5Text);
 		
 		//Verification of footer link and its text
 		util.verifyfooterLinksForApp();

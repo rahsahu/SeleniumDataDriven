@@ -60,6 +60,15 @@ public class DriverCommonAction {
 				+ "/src/test/resources/testdata/LINKS.xls", "product", "mproovtest");
 
 	}
+	@DataProvider(name = "ProSportsTest")
+	public static Object[][] createDataProSportsTest() {
+		final String dir = System.getProperty("user.dir");
+		System.out.println("current dir = " + dir);
+		return UtilWrapper.getTableArray(dir
+				+ "/src/test/resources/testdata/LINKS.xls", "product", "ProSportsTest");
+
+	}
+	
 	
 	@AfterTest(alwaysRun=true)
 	public void teardown() {

@@ -13,7 +13,8 @@ public class MyAccountPage {
 	public static By myHistory=By.xpath("//div[@id='main_contain']/div/div[2]/div/p");
 	
 	public static By getCoinsLink=By.xpath("//div[@id='main_contain']/div/p/a");
-	
+	public static String title="Home - mProov";
+	public static String myAccountPageTitle="mProov";
 	public static String myAccountHeadingValue="My Account";
 	public static String MyHistoryHeadingValue="My Download History";
 	public static String getCoinsLinkValue="What can I get with my MoCoins?";

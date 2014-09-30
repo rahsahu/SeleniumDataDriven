@@ -131,6 +131,14 @@ public class DriverWrapper {
 	
 	public void verifyText(By Byelement,String text){
 		System.out.println("Verifying "+Byelement +"  should have "+ text +" value.");
+		if(!findElement(Byelement).getText().equalsIgnoreCase(text))
+		{	softAssert.assertEquals(true, false);
+			System.err.println("verification of "+Byelement +"  should have "+ text +" value failed " );
+		}
+	}
+	
+	public void verifyContainText(By Byelement,String text){
+		System.out.println("Verifying "+Byelement +"  should have "+ text +" value.");
 		if(!findElement(Byelement).getText().contains(text))
 		{	softAssert.assertEquals(true, false);
 			System.err.println("verification of "+Byelement +"  should have "+ text +" value failed " );
