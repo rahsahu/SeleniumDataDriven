@@ -40,6 +40,14 @@ public class DriverWrapper {
 	public static By ByMProoveItem2XPATH=By.xpath("//div[@id='home_page']/div[2]/div[2]/a[2]");
 	public static By ByMProoveItem3XPATH=By.xpath("//div[@id='home_page']/div[2]/div[2]/a[3]");
 	public static By ByMProoveItem4XPATH=By.xpath("//div[@id='home_page']/div[2]/div[2]/a[4]");
+	public static By ByMProovefooter1XPATH=By.xpath("//div[@id='footer']/ul/li[1]");
+	public static By ByMProovefooter2XPATH=By.xpath("//div[@id='footer']/ul/li[2]");
+	public static By ByMProovefooter3XPATH=By.xpath("//div[@id='footer']/ul/li[3]");
+	public static By ByMProovefooter4XPATH=By.xpath("//div[@id='footer']/ul/li[4]");
+	public static By ByMProovefooter5XPATH=By.xpath("//div[@id='footer']/ul/li[5]");
+	public static By ByMProoveimg5XPATH=By.xpath("//img[@alt='mproov.me']");
+	
+
 	
 	public static SoftAssert softAssert = new SoftAssert();
 	public DriverWrapper(WebDriver driverdriver) {
@@ -119,6 +127,14 @@ public class DriverWrapper {
 	{
 		if(!getDriver().getPageSource().contains(helplineMessageString))
 			softAssert.assertEquals(true, false);
+	}
+	
+	public void verifyText(By Byelement,String text){
+		
+		if(!findElement(Byelement).getText().contains(text))
+		{	softAssert.assertEquals(true, false);
+			System.err.println("verification of "+Byelement +"  should have "+ text +" value failed " );
+		}
 	}
 	
 }
