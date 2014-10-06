@@ -52,12 +52,12 @@ public class DriverCommonAction {
 
 	}
 	
-	@DataProvider(name = "product")
-	public static Object[][] createDataProduct() {
+	@DataProvider(name = "MProovTest")
+	public static Object[][] createDataMProovTest() {
 		final String dir = System.getProperty("user.dir");
 		System.out.println("current dir = " + dir);
 		return UtilWrapper.getTableArray(dir
-				+ "/src/test/resources/testdata/LINKS.xls", "product", "mproovtest");
+				+ "/src/test/resources/testdata/LINKS.xls", "product", "MProovTest");
 
 	}
 	@DataProvider(name = "ProSportsTest")
@@ -76,7 +76,35 @@ public class DriverCommonAction {
 		return UtilWrapper.getTableArray(dir
 				+ "/src/test/resources/testdata/LINKS.xls", "product", "AppyClubTest");
 
+	}	
+	
+	@DataProvider(name = "MHubTest")
+	public static Object[][] createDataMHubTest() {
+		final String dir = System.getProperty("user.dir");
+		System.out.println("current dir = " + dir);
+		return UtilWrapper.getTableArray(dir
+				+ "/src/test/resources/testdata/LINKS.xls", "product", "MHubTest");
+
 	}
+
+	@DataProvider(name = "JooceyTest")
+	public static Object[][] createDataJooceyTest() {
+		final String dir = System.getProperty("user.dir");
+		System.out.println("current dir = " + dir);
+		return UtilWrapper.getTableArray(dir
+				+ "/src/test/resources/testdata/LINKS.xls", "product", "JooceyTest");
+
+	}
+	
+	@DataProvider(name = "InGameTest")
+	public static Object[][] createDataInGameTestTest() {
+		final String dir = System.getProperty("user.dir");
+		System.out.println("current dir = " + dir);
+		return UtilWrapper.getTableArray(dir
+				+ "/src/test/resources/testdata/LINKS.xls", "product", "InGameTest");
+
+	}
+
 	@AfterTest(alwaysRun=true)
 	public void teardown() {
 		System.out.println("After Test is getting called");

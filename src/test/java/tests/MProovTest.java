@@ -48,7 +48,7 @@ public class MProovTest extends DriverCommonAction {
 	private String subMenu5Text="Itchy Feet";
 	private String subMenu6Text="My Account";
 	
-	@Test(dataProvider = "product", groups = { "mproov", "all", "app" })
+	@Test(dataProvider = "MProovTest", groups = { "mproov", "all", "app" })
 	public void carrierIDONE(String url) throws Exception {
 		String restURL="&territory=AU&mobile_carrier_id=1";
 		
