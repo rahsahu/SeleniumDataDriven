@@ -69,7 +69,14 @@ public class DriverCommonAction {
 
 	}
 	
-	
+	@DataProvider(name = "AppyClubTest")
+	public static Object[][] createDataAppyClubTest() {
+		final String dir = System.getProperty("user.dir");
+		System.out.println("current dir = " + dir);
+		return UtilWrapper.getTableArray(dir
+				+ "/src/test/resources/testdata/LINKS.xls", "product", "AppyClubTest");
+
+	}
 	@AfterTest(alwaysRun=true)
 	public void teardown() {
 		System.out.println("After Test is getting called");
