@@ -1,0 +1,9 @@
+		DesiredCapabilities capabilities = DesiredCapabilities.android();
+		capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "4.4.2");
+		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "15e0b14");
+		capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
+	//	capabilities.setCapability("automationName", "Appium");
+		URL curl = new URL("http://IN1W7L-522261.ttg.global:4723/wd/hub");
+		AppiumDriver driver = new AppiumDriver(curl, capabilities);
+		
