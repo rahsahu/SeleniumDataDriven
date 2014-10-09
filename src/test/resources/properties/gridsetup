@@ -1,0 +1,70 @@
+set SELENIUM_VERSION=2.43.1
+set CHROME_VERSION=chrome-18.0.995.0
+start java -jar selenium-server-standalone-%SELENIUM_VERSION%.jar -role hub -hubConfig DefaultHub.json
+start java -jar selenium-server-standalone-%SELENIUM_VERSION%.jar -role node -nodeConfig DefaultNode.json
+
+
+{
+  "host": IN1W7L-522261.ttg.global,
+  "port": 4444,
+  "newSessionWaitTimeout": -1,
+  "servlets" : [],
+  "prioritizer": null,
+  "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+  "throwOnCapabilityNotPresent": true,
+  "nodePolling": 5000,
+
+  "cleanUpCycle": 5000,
+  "timeout": 300000,
+  "browserTimeout": 0,
+  "maxSession": 5,
+  "jettyMaxThreads":-1
+}
+
+
+{
+  "capabilities":
+      [
+        {
+          "browserName": "*firefox",
+          "maxInstances": 5,
+          "seleniumProtocol": "Selenium"
+        },
+        {
+          "browserName": "*googlechrome",
+          "maxInstances": 5,
+          "seleniumProtocol": "Selenium"
+        },
+        {
+          "browserName": "*iexplore",
+          "maxInstances": 1,
+          "seleniumProtocol": "Selenium"
+        },
+        {
+          "browserName": "firefox",
+          "maxInstances": 5,
+          "seleniumProtocol": "WebDriver"
+        },
+        {
+          "browserName": "chrome",
+          "maxInstances": 5,
+          "seleniumProtocol": "WebDriver"
+        },
+        {
+          "browserName": "internet explorer",
+          "maxInstances": 1,
+          "seleniumProtocol": "WebDriver"
+        }
+      ],
+  "configuration":
+  {
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 5,
+    "port": 5555,
+    "host": IN1W7L-522261.ttg.global,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": IN1W7L-522261.ttg.global
+  }
+}
